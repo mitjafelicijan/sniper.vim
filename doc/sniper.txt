@@ -18,7 +18,7 @@ It maintains 4 slots for fast buffer switching.
 ==============================================================================
 2. COMMANDS                                  *sniper-commands*
 
-:SniperList               List all stored buffers with their status
+:SniperList                 List all stored buffers with their status
                             Shows: [Slot] BufferName (ID) - STATUS
 
 ==============================================================================
