@@ -1,4 +1,4 @@
-# Simple Vim Buffer Bookmark Manager
+# Buffer Bookmark Manager
 
 Quickly store and recall buffers with F1-F4 keys.
 
