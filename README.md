@@ -24,6 +24,14 @@ Plug 'mitjafelicijan/sniper.vim'
 - `F4` to recall buffer from slot 4
 - `F5` or `:SniperList` to view all stored buffers
 
+## Available functions
+
+- `sniper#StoreBuffer(BufferNumber)`
+- `sniper#RecallBuffer(BufferNumber)`
+- `sniper#ListBuffers()`
+
+`BufferNumber` is a number between 1 and 4.
+
 ## Default keybinds
 
 ```vim
