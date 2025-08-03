@@ -1,0 +1,76 @@
+*sniper.txt*    Sniper Plugin
+
+==============================================================================
+CONTENTS                                      *sniper-contents*
+
+1. Introduction            |sniper-intro|
+2. Commands                |sniper-commands|
+3. Mappings                |sniper-mappings|
+4. Functions               |sniper-functions|
+5. License                 |sniper-license|
+
+==============================================================================
+1. INTRODUCTION                              *sniper-intro*
+
+The sniper plugin provides quick buffer storage and recall using F1-F4 keys.
+It maintains 4 slots for fast buffer switching.
+
+==============================================================================
+2. COMMANDS                                  *sniper-commands*
+
+:SniperList               List all stored buffers with their status
+                            Shows: [Slot] BufferName (ID) - STATUS
+
+==============================================================================
+3. MAPPINGS                                  *sniper-mappings*
+
+Normal mode mappings:
+<Shift-F1>                  Store current buffer in slot 1
+<Shift-F2>                  Store current buffer in slot 2
+<Shift-F3>                  Store current buffer in slot 3
+<Shift-F4>                  Store current buffer in slot 4
+
+<F1>                        Recall buffer from slot 1
+<F2>                        Recall buffer from slot 2
+<F3>                        Recall buffer from slot 3
+<F4>                        Recall buffer from slot 4
+
+<F5>                        Lists all buffer slots
+
+==============================================================================
+4. FUNCTIONS                                 *sniper-functions*
+
+sniper#StoreBuffer(pos)   Store current buffer in specified position (1-4)
+sniper#RecallBuffer(pos)  Recall buffer from specified position (1-4)
+sniper#ListBuffers()      Display all stored buffers
+
+==============================================================================
+5. LICENSE                                  *sniper-license*
+
+BSD 2-Clause License
+Copyright (c) 2025 Mitja Felicijan
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice,
+   this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+
+==============================================================================
+vim:tw=78:ts=8:ft=help:norl:
