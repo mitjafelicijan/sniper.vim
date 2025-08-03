@@ -2,6 +2,8 @@
 
 Quickly store and recall buffers with F1-F4 keys.
 
+Insipired by (ThePrimeagen/harpoon)[https://github.com/ThePrimeagen/harpoon].
+
 ## Installation
 
 Using vim-plug:
