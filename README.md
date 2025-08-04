@@ -2,7 +2,7 @@
 
 Quickly store and recall buffers with F1-F4 keys.
 
-Insipired by [ThePrimeagen/harpoon](https://github.com/ThePrimeagen/harpoon).
+Inspired by [ThePrimeagen/harpoon](https://github.com/ThePrimeagen/harpoon).
 
 ## Installation
 
@@ -32,7 +32,7 @@ Plug 'mitjafelicijan/sniper.vim'
 
 `BufferNumber` is a number between 1 and 4.
 
-## Default keybinds
+## Default key binds
 
 ```vim
 nnoremap <silent> <S-F1> :call sniper#StoreBuffer(1)<CR>
